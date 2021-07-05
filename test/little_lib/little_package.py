@@ -8,7 +8,7 @@ class little_class():
     def _check_name(self, name:str) -> str:
         # make sure name is string
         if not isinstance(name, str):
-            return TypeError("The name argument must be a string, provided type: {}".format(type(name)))
+            raise TypeError("The name argument must be a string, provided type: {}".format(type(name)))
         # make sure name doesn't contain new lines 
         if "\n" in name:
             name = name.replace("\n", " ")
