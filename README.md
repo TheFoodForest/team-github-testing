@@ -1,2 +1,3 @@
-# team-github-testing
-Testing repo for merge conflicts from team feature branches
+# Team Github Testing
+
+The purpose of this repo is to serve as a test ground for merge conflics with a small team.
